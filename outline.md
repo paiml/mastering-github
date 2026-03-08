@@ -351,7 +351,55 @@ coding standards, and evaluate LLM cost-benefit trade-offs.
 
 ---
 
-## Course 8: Capstone — Building Production Features with Copilot
+## Course 8: Agentic GitHub
+
+> **STATUS: NOT YET PRODUCED** — all videos missing
+
+Build autonomous AI agents that operate on GitHub. Connect agents to tools via
+MCP servers, implement agentic CI/CD with GitHub Actions, and deploy production
+agent systems with guardrails and human-in-the-loop controls.
+
+**Learning Objectives:**
+- Distinguish agent mode from chat mode in GitHub Copilot
+- Build MCP (Model Context Protocol) servers that connect agents to external tools
+- Implement agentic CI/CD pipelines that autonomously review, test, and deploy
+- Create automated code review and PR triage bots
+- Design multi-agent orchestration patterns for complex workflows
+- Apply guardrails, monitoring, and human-in-the-loop for production safety
+
+### Module 1: Foundations of Agentic Development
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 8.1.1 | Course Introduction | — | MISSING |
+| 8.1.2 | What Is Agentic AI on GitHub? — autonomous vs. assisted coding | — | MISSING |
+| 8.1.3 | Agent Mode vs. Chat Mode in Copilot — when to use each | — | MISSING |
+| 8.1.4 | MCP Servers: Connecting Agents to Tools — protocol, transports, tool schema | — | MISSING |
+| 8.1.5 | Building Your First MCP Server — end-to-end walkthrough | — | MISSING |
+
+### Module 2: Autonomous Workflows
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 8.2.1 | Agentic CI/CD with GitHub Actions — event-driven agent triggers | — | MISSING |
+| 8.2.2 | Automated Code Review Agents — PR analysis, security scanning | — | MISSING |
+| 8.2.3 | PR Generation and Triage Bots — issue-to-PR automation | — | MISSING |
+| 8.2.4 | Challenge: Build an Automated Review Agent | — | MISSING |
+| 8.2.5 | Solution: Build an Automated Review Agent | — | MISSING |
+
+### Module 3: Production Agentic Systems
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 8.3.1 | Multi-Agent Orchestration Patterns — fan-out, pipeline, consensus | — | MISSING |
+| 8.3.2 | Guardrails and Human-in-the-Loop — approval gates, safety bounds | — | MISSING |
+| 8.3.3 | Monitoring and Observability for Agents — tracing, cost tracking | — | MISSING |
+| 8.3.4 | Scaling Agentic Workflows in Enterprise — rate limits, governance | — | MISSING |
+| 8.3.5 | Course Conclusion — agentic recap, capstone preview | — | MISSING |
+
+---
+
+## Course 9: Capstone — Building Production Features with Copilot
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 15 videos in `coursera-assets/github-copilot-mastery-capstone/`
 
@@ -403,54 +451,6 @@ with extreme TDD and zero-defect enforcement.
 
 ---
 
-## Course 9: Agentic GitHub
-
-> **STATUS: NOT YET PRODUCED** — all videos missing
-
-Build autonomous AI agents that operate on GitHub. Connect agents to tools via
-MCP servers, implement agentic CI/CD with GitHub Actions, and deploy production
-agent systems with guardrails and human-in-the-loop controls.
-
-**Learning Objectives:**
-- Distinguish agent mode from chat mode in GitHub Copilot
-- Build MCP (Model Context Protocol) servers that connect agents to external tools
-- Implement agentic CI/CD pipelines that autonomously review, test, and deploy
-- Create automated code review and PR triage bots
-- Design multi-agent orchestration patterns for complex workflows
-- Apply guardrails, monitoring, and human-in-the-loop for production safety
-
-### Module 1: Foundations of Agentic Development
-
-| # | Lesson | File | Status |
-|---|--------|------|--------|
-| 9.1.1 | Course Introduction | — | MISSING |
-| 9.1.2 | What Is Agentic AI on GitHub? — autonomous vs. assisted coding | — | MISSING |
-| 9.1.3 | Agent Mode vs. Chat Mode in Copilot — when to use each | — | MISSING |
-| 9.1.4 | MCP Servers: Connecting Agents to Tools — protocol, transports, tool schema | — | MISSING |
-| 9.1.5 | Building Your First MCP Server — end-to-end walkthrough | — | MISSING |
-
-### Module 2: Autonomous Workflows
-
-| # | Lesson | File | Status |
-|---|--------|------|--------|
-| 9.2.1 | Agentic CI/CD with GitHub Actions — event-driven agent triggers | — | MISSING |
-| 9.2.2 | Automated Code Review Agents — PR analysis, security scanning | — | MISSING |
-| 9.2.3 | PR Generation and Triage Bots — issue-to-PR automation | — | MISSING |
-| 9.2.4 | Challenge: Build an Automated Review Agent | — | MISSING |
-| 9.2.5 | Solution: Build an Automated Review Agent | — | MISSING |
-
-### Module 3: Production Agentic Systems
-
-| # | Lesson | File | Status |
-|---|--------|------|--------|
-| 9.3.1 | Multi-Agent Orchestration Patterns — fan-out, pipeline, consensus | — | MISSING |
-| 9.3.2 | Guardrails and Human-in-the-Loop — approval gates, safety bounds | — | MISSING |
-| 9.3.3 | Monitoring and Observability for Agents — tracing, cost tracking | — | MISSING |
-| 9.3.4 | Scaling Agentic Workflows in Enterprise — rate limits, governance | — | MISSING |
-| 9.3.5 | Course Conclusion and Specialization Wrap-Up | — | MISSING |
-
----
-
 ## Summary
 
 | # | Course | Dir | Videos | SRTs | Status |
@@ -462,8 +462,8 @@ agent systems with guardrails and human-in-the-loop controls.
 | 5 | Advanced Prompting with GitHub Copilot | `advanced-prompting-with-github-copilot/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
 | 6 | GitHub Copilot for System-Level Development | `ghcp-for-systems-level-development/` | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
 | 7 | Responsible AI Development with GitHub Copilot | `responsible-ai-dev/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 8 | Capstone: Building Production Features with Copilot | `github-copilot-mastery-capstone/` | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
-| 9 | Agentic GitHub | — | 0/~15 | 0 | **NOT PRODUCED** |
+| 8 | Agentic GitHub | — | 0/~15 | 0 | **NOT PRODUCED** |
+| 9 | Capstone: Building Production Features with Copilot | `github-copilot-mastery-capstone/` | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
 
 **Totals:** 110 of ~141 videos have files. 35 SRTs exist. 75 videos need transcription. ~31 videos not yet produced.
 
