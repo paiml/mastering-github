@@ -9,7 +9,7 @@ autonomous agent workflows.
 
 ---
 
-## Course 1: GitHub from Zero
+## Course 1: From Zero to Pull Request
 
 > **STATUS: NOT YET PRODUCED** — all videos missing
 
@@ -58,7 +58,7 @@ project boards, and forks.
 
 ---
 
-## Course 2: GitHub Foundations — Privacy, Security, and Administration
+## Course 2: Security, Identity, and Access
 
 > **STATUS: COMPLETE** — 16 videos + 16 SRTs in `coursera-assets/github-foundations-privacy/build/`
 
@@ -102,7 +102,7 @@ organizations with teams, roles, and security policies.
 
 ---
 
-## Course 3: Building with the GitHub Ecosystem
+## Course 3: Codespaces, Actions, and Ecosystem Tools
 
 > **STATUS: COMPLETE** — 10 videos + 10 SRTs in `coursera-assets/building-with-github-ecosystem/build/`
 
@@ -113,7 +113,7 @@ GitHub Actions, and create end-to-end DevOps projects.
 **Learning Objectives:**
 - Create repositories from templates and configure dev containers
 - Launch and customize GitHub Codespaces for cloud-based development
-- Use GPU-accelerated Codespaces for ML workloads (Whisper, Hugging Face)
+- Use GPU-accelerated Codespaces for ML workloads (transcription, fine-tuning)
 - Generate code with GitHub Copilot and Copilot Chat
 - Build CI/CD workflows with GitHub Actions YAML
 - Construct Python DevOps projects integrating Copilot, Actions, and Codespaces
@@ -123,10 +123,10 @@ GitHub Actions, and create end-to-end DevOps projects.
 | # | Lesson | File | Status |
 |---|--------|------|--------|
 | 1.1 | Key Concepts: GitHub Ecosystem — platform overview, MLOps integration | `1.1-Key-Concepts-GitHub-Ecosytem.mp4` | HAVE |
-| 1.2 | Demo: Repository from Teaching Template — Microsoft Codespaces template | `1.2-demo-GitHub-Repo-with-teaching-template.mp4` | HAVE |
+| 1.2 | Demo: Repository from Teaching Template — Codespaces template setup | `1.2-demo-GitHub-Repo-with-teaching-template.mp4` | HAVE |
 | 1.3 | Demo: Codespaces — dev container config, customization, port forwarding | `1.3-demo-codespaces.mp4` | HAVE |
-| 1.4 | Demo: GPU + Whisper — Nvidia monitoring, CUDA driver, GPU transcription | `1.4-demo-gpu-whisper.mp4` | HAVE |
-| 1.5 | Demo: GPU + Hugging Face Fine-Tuning — model hosting, fine-tuning workflow | `1.5-demo-gpu-hugging-face-fine-tuning.mp4` | HAVE |
+| 1.4 | Demo: GPU Transcription — GPU monitoring, drivers, accelerated inference | `1.4-demo-gpu-whisper.mp4` | HAVE |
+| 1.5 | Demo: GPU Model Fine-Tuning — model hosting, fine-tuning workflow | `1.5-demo-gpu-hugging-face-fine-tuning.mp4` | HAVE |
 | 1.6 | Demo: Copilot — code completion, Copilot Labs, translate code | `1.6-demo-copilot.mp4` | HAVE |
 | 1.7 | Demo: GitHub Actions — YAML workflows, CI triggers, build pipelines | `1.7-demo-github-actions.mp4` | HAVE |
 | 1.8 | Codespaces Ecosystem with Copilot Chat — integrated AI workflow | `1.8-GitHub-Codespaces-Ecosystem-with-copilot-chat.mp4` | HAVE |
@@ -135,12 +135,12 @@ GitHub Actions, and create end-to-end DevOps projects.
 
 | # | Lesson | File | Status |
 |---|--------|------|--------|
-| 2.0 | Building Logistics Projects with Ecosystem and Copilot — Python functions as hubs | `2.0-building-logistics-projects-withGitHub-ecosystem-and-copilot.mp4` | HAVE |
-| 3.0 | Key Skills: Python DevOps Projects with Copilot — CLI tools, CI, microservices on AWS | `3.0-key-skills-python-devops-projects-with-copilot.mp4` | HAVE |
+| 2.0 | Building Logistics Projects — Python functions as integration hubs | `2.0-building-logistics-projects-withGitHub-ecosystem-and-copilot.mp4` | HAVE |
+| 3.0 | Key Skills: Python DevOps Projects — CLI tools, CI, microservices on cloud | `3.0-key-skills-python-devops-projects-with-copilot.mp4` | HAVE |
 
 ---
 
-## Course 4: GitHub Administration Certification Prep
+## Course 4: Enterprise Administration Across Seven Domains
 
 > **STATUS: COMPLETE** — 45 videos + 45 SRTs in `coursera-assets/github-enterprise/build/`
 
@@ -188,8 +188,8 @@ management, and GitHub Packages distribution.
 | 3.1 | Introducing GitHub Codespaces — cloud development environments | `3.1-Introducing-GitHub-Codespaces.mp4` | HAVE |
 | 3.2 | Enterprise Billing Console — cost management, spending limits | `3.2-enteprise-billing-console.mp4` | HAVE |
 | 3.3 | Demo: Codespaces — dev container config, customization, port forwarding | `3.3-demo-codespaces.mp4` | HAVE |
-| 3.4 | Demo: GPU + Whisper — Nvidia monitoring, CUDA, GPU transcription | `3.4-demo-gpu-whisper.mp4` | HAVE |
-| 3.6 | Demo: GPU + Hugging Face Fine-Tuning — model hosting, fine-tuning workflow | `3.6-demo-gpu-hugging-face-fine-tuning.mp4` | HAVE |
+| 3.4 | Demo: GPU Transcription — GPU monitoring, drivers, accelerated inference | `3.4-demo-gpu-whisper.mp4` | HAVE |
+| 3.6 | Demo: GPU Model Fine-Tuning — model hosting, fine-tuning workflow | `3.6-demo-gpu-hugging-face-fine-tuning.mp4` | HAVE |
 | 3.8 | GitHub Continuous Integration — CI pipelines, build automation | `3.8-github-continuous-integration.mp4` | HAVE |
 | 3.10 | Customizing GitHub Codespaces — deep dive, dotfiles, extensions | `3.10-Customizing-GitHub-CodeSpaces-One-Hour-Deep-Dive-Alfredo-Deza.mp4` | HAVE |
 
@@ -240,15 +240,13 @@ management, and GitHub Packages distribution.
 
 ---
 
-## Course 5: Best Practices for Integrating GitHub Models
+## Course 5: Evaluating and Integrating AI Models
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 20 videos in `coursera-assets/github-models/` (9 SRTs in `transcriptions/`)
 
 Evaluate, test, and integrate AI models from the GitHub Models marketplace into
 applications. Navigate model selection, manage rate limits and Codespaces resources,
 and build an HTTP API backed by GitHub Models using personal access tokens.
-
-**Instructor:** Alfredo Deza
 
 **Learning Objectives:**
 - Navigate the GitHub Models marketplace and filter by model characteristics
@@ -257,14 +255,14 @@ and build an HTTP API backed by GitHub Models using personal access tokens.
 - Manage rate limits and scale from the free tier to production usage
 - Configure Codespaces for cloud-based model development
 - Create personal access tokens and authenticate with the GitHub Models API
-- Build and test an HTTP API (FastAPI) backed by GitHub Models
+- Build and test an HTTP API backed by GitHub Models
 
 ### Module 1: Discovering and Evaluating AI Models
 
 | # | Lesson | File | Status |
 |---|--------|------|--------|
 | 1.0a | About This Course — what GitHub Models offers, course roadmap | `1.0-about-this-course.mp4` | HAVE (SRT) |
-| 1.0b | Meet Your Instructor — Alfredo Deza, course philosophy | `1.0-meet-your-instructor.mp4` | HAVE (SRT) |
+| 1.0b | Meet Your Instructor — background and course philosophy | `1.0-meet-your-instructor.mp4` | HAVE (SRT) |
 | 1.1 | Introduction — finding and selecting models, key characteristics | `1.1-introduction.mp4` | HAVE (SRT) |
 | 1.2 | Understanding AI Models and Current Challenges — capabilities, limitations | `1.2-understanding-ai-models-and-current-challenges.mp4` | HAVE |
 | 1.3 | Navigating the GitHub Models Marketplace — filters, categories, comparison | `1.3-navigating-the-github-models-marketplace-effectively.mp4` | HAVE |
@@ -290,13 +288,13 @@ and build an HTTP API backed by GitHub Models using personal access tokens.
 | 3.1 | Introduction — practical application development | `3.1-introduction.mp4` | HAVE (SRT) |
 | 3.2 | Creating a Personal Access Token — PAT setup, scopes, security | `3.2-creating-a-personal-access-token.mp4` | HAVE (SRT) |
 | 3.3 | Setting Up the Development Environment — dependencies, project scaffold | `3.3-setting-up-the-development-environment.mp4` | HAVE |
-| 3.4 | Creating an HTTP API — FastAPI endpoint backed by GitHub Models | `3.4-creating-an-http-api.mp4` | HAVE |
+| 3.4 | Creating an HTTP API — web endpoint backed by GitHub Models | `3.4-creating-an-http-api.mp4` | HAVE |
 | 3.5 | Strategies for Testing and Validation — error responses, integration tests | `3.5-strategies-for-testing-and-validation.mp4` | HAVE |
 | 3.6 | Module Summary — API development recap, next steps | `3.6-summary.mp4` | HAVE (SRT) |
 
 ---
 
-## Course 6: Advanced Prompting with GitHub Copilot
+## Course 6: Advanced Prompt Engineering for Code
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 16 videos in `coursera-assets/advanced-prompting-with-github-copilot/`
 
@@ -313,7 +311,7 @@ multiple files to generate production-quality code from API documentation.
 - Generate implementation code from API documentation
 - Navigate and understand unfamiliar codebases with AI assistance
 
-**Duration:** ~60 minutes | **GitHub Repo:** `paiml/advanced-prompting-with-github-copilot`
+**Duration:** ~60 minutes
 
 ### Module 1: Foundations for Advanced Prompting
 
@@ -348,23 +346,23 @@ multiple files to generate production-quality code from API documentation.
 
 ---
 
-## Course 7: GitHub Copilot for System-Level Development
+## Course 7: AI-Augmented Testing and Refactoring
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 17 videos in `coursera-assets/ghcp-for-systems-level-development/`
 
 Apply Copilot to systems programming: AI-augmented TDD, large-scale refactoring
-across multi-file codebases, and infrastructure-as-code generation for Docker,
-Terraform, and CI pipelines.
+across multi-file codebases, and infrastructure-as-code generation for containers,
+cloud provisioning, and CI pipelines.
 
 **Learning Objectives:**
-- Implement AI-augmented test-driven development (TDD) workflows
+- Implement AI-augmented test-driven development (TDD) workflows with Copilot
 - Generate complex test suites with mocks, stubs, and coverage analysis
 - Use @workspace for cross-file dependency analysis and system-wide refactoring
 - Enforce coding styles and constraints through AI-generated guidelines
-- Generate Dockerfiles, Terraform configs, and IaC from natural language
+- Generate container configs, IaC templates, and CI pipelines from natural language
 - Evaluate test coverage and identify gaps using Copilot
 
-**Duration:** ~60 minutes | **GitHub Repo:** `paiml/ghcp-for-systems-level-development`
+**Duration:** ~60 minutes
 
 ### Module 1: AI-Augmented Test-Driven Development
 
@@ -394,13 +392,13 @@ Terraform, and CI pipelines.
 | # | Lesson | File | Status |
 |---|--------|------|--------|
 | 2.3.1 | Generating IaC Configurations — natural language to infrastructure | `2.3.1-generating-iac-configurations.mp4` | HAVE |
-| 2.3.2 | Creating Dockerfiles with AI — multi-stage builds, security scanning | `2.3.2-creating-dockerfiles-with-ai.mp4` | HAVE |
-| 2.3.3 | Terraform Configuration Generation — providers, modules, state | `2.3.3-terraform-configuration-generation.mp4` | HAVE |
+| 2.3.2 | Creating Container Configurations with AI — multi-stage builds, security scanning | `2.3.2-creating-dockerfiles-with-ai.mp4` | HAVE |
+| 2.3.3 | IaC Provisioning Generation — providers, modules, state management | `2.3.3-terraform-configuration-generation.mp4` | HAVE |
 | 2.3.4 | Course Conclusion — recap and pathway progress | `2.3.4-course-conclusion.mp4` | HAVE |
 
 ---
 
-## Course 8: Responsible AI Development with GitHub Copilot
+## Course 8: Governing AI-Generated Code
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 16 videos in `coursera-assets/responsible-ai-dev/`
 
@@ -416,7 +414,7 @@ coding standards, and evaluate LLM cost-benefit trade-offs.
 - Enforce team coding standards through custom Copilot configurations
 - Evaluate LLMs on performance benchmarks, cost, and suitability for your stack
 
-**Duration:** ~62 minutes | **GitHub Repo:** `paiml/responsible-ai-dev`
+**Duration:** ~62 minutes
 
 ### Module 1: Validating AI-Generated Code
 
@@ -451,7 +449,7 @@ coding standards, and evaluate LLM cost-benefit trade-offs.
 
 ---
 
-## Course 9: Agentic GitHub
+## Course 9: Autonomous Agent Workflows
 
 > **STATUS: NOT YET PRODUCED** — all videos missing
 
@@ -499,14 +497,14 @@ agent systems with guardrails and human-in-the-loop controls.
 
 ---
 
-## Course 10: Capstone — Building Production Features with Copilot
+## Course 10: Production Application Capstone
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 15 videos in `coursera-assets/github-copilot-mastery-capstone/`
 
-End-to-end capstone project: plan, build, and test a production TypeScript
-application using GitHub Copilot. Implement API layers, business logic with
-currency conversions, ORM-backed persistence, and a comprehensive test suite
-with extreme TDD and zero-defect enforcement.
+End-to-end capstone project: plan, build, and test a production application
+using Copilot. Implement API layers, business logic with currency conversions,
+ORM-backed persistence, and a comprehensive test suite with extreme TDD and
+zero-defect enforcement.
 
 **Learning Objectives:**
 - Plan a production application using Copilot for architecture and quality gates
@@ -517,7 +515,7 @@ with extreme TDD and zero-defect enforcement.
 - Construct end-to-end test suites and evaluate against Richardson Maturity Model
 - Apply extreme TDD and zero-defect enforcement practices with AI assistance
 
-**Duration:** 1h 08m | **GitHub Repo:** `paiml/GitHub-Copilot-Mastery-Capstone`
+**Duration:** ~68 minutes
 
 ### Module 1: Project Planning and Setup
 
@@ -555,15 +553,15 @@ with extreme TDD and zero-defect enforcement.
 
 | # | Course | Dir | Videos | SRTs | Status |
 |---|--------|-----|--------|------|--------|
-| 1 | GitHub from Zero | — | 0/~16 | 0 | **NOT PRODUCED** |
-| 2 | GitHub Foundations: Privacy, Security, and Administration | `github-foundations-privacy/build/` | 16/16 | 16/16 | **COMPLETE** |
-| 3 | Building with the GitHub Ecosystem | `building-with-github-ecosystem/build/` | 10/10 | 10/10 | **COMPLETE** |
-| 4 | GitHub Administration Certification Prep | `github-enterprise/build/` | 45/45 | 45/45 | **COMPLETE** |
-| 5 | Best Practices for Integrating GitHub Models | `github-models/` | 20/20 | 9/20 | **NEED TRANSCRIPTION** |
-| 6 | Advanced Prompting with GitHub Copilot | `advanced-prompting-with-github-copilot/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 7 | GitHub Copilot for System-Level Development | `ghcp-for-systems-level-development/` | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
-| 8 | Responsible AI Development with GitHub Copilot | `responsible-ai-dev/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 9 | Agentic GitHub | — | 0/~15 | 0 | **NOT PRODUCED** |
-| 10 | Capstone: Building Production Features with Copilot | `github-copilot-mastery-capstone/` | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
+| 1 | From Zero to Pull Request | — | 0/~16 | 0 | **NOT PRODUCED** |
+| 2 | Security, Identity, and Access | `github-foundations-privacy/build/` | 16/16 | 16/16 | **COMPLETE** |
+| 3 | Codespaces, Actions, and Ecosystem Tools | `building-with-github-ecosystem/build/` | 10/10 | 10/10 | **COMPLETE** |
+| 4 | Enterprise Administration Across Seven Domains | `github-enterprise/build/` | 45/45 | 45/45 | **COMPLETE** |
+| 5 | Evaluating and Integrating AI Models | `github-models/` | 20/20 | 9/20 | **NEED TRANSCRIPTION** |
+| 6 | Advanced Prompt Engineering for Code | `advanced-prompting-with-github-copilot/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
+| 7 | AI-Augmented Testing and Refactoring | `ghcp-for-systems-level-development/` | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
+| 8 | Governing AI-Generated Code | `responsible-ai-dev/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
+| 9 | Autonomous Agent Workflows | — | 0/~15 | 0 | **NOT PRODUCED** |
+| 10 | Production Application Capstone | `github-copilot-mastery-capstone/` | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
 
 **Totals:** 155 of ~186 videos have files. 80 SRTs exist. 75 videos need transcription. ~31 videos not yet produced.
