@@ -1,4 +1,4 @@
-# Mastering GitHub — 7-Course Coursera Specialization
+# Mastering GitHub — 9-Course Coursera Specialization
 
 Progressive ladder from zero to agentic GitHub workflows. Each course ~60 minutes,
 3–5 minute videos.
@@ -140,7 +140,63 @@ GitHub Actions, and create end-to-end DevOps projects.
 
 ---
 
-## Course 4: Advanced Prompting with GitHub Copilot
+## Course 4: Best Practices for Integrating GitHub Models
+
+> **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 20 videos in `coursera-assets/github-models/` (9 SRTs in `transcriptions/`)
+
+Evaluate, test, and integrate AI models from the GitHub Models marketplace into
+applications. Navigate model selection, manage rate limits and Codespaces resources,
+and build an HTTP API backed by GitHub Models using personal access tokens.
+
+**Instructor:** Alfredo Deza
+
+**Learning Objectives:**
+- Navigate the GitHub Models marketplace and filter by model characteristics
+- Evaluate AI models using the interactive playground with effective prompts
+- Apply responsible AI principles when selecting and deploying models
+- Manage rate limits and scale from the free tier to production usage
+- Configure Codespaces for cloud-based model development
+- Create personal access tokens and authenticate with the GitHub Models API
+- Build and test an HTTP API (FastAPI) backed by GitHub Models
+
+### Module 1: Discovering and Evaluating AI Models
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 1.0a | About This Course — what GitHub Models offers, course roadmap | `1.0-about-this-course.mp4` | HAVE (SRT) |
+| 1.0b | Meet Your Instructor — Alfredo Deza, course philosophy | `1.0-meet-your-instructor.mp4` | HAVE (SRT) |
+| 1.1 | Introduction — finding and selecting models, key characteristics | `1.1-introduction.mp4` | HAVE (SRT) |
+| 1.2 | Understanding AI Models and Current Challenges — capabilities, limitations | `1.2-understanding-ai-models-and-current-challenges.mp4` | HAVE |
+| 1.3 | Navigating the GitHub Models Marketplace — filters, categories, comparison | `1.3-navigating-the-github-models-marketplace-effectively.mp4` | HAVE |
+| 1.4 | Applying Playground Techniques — interactive testing, prompt strategies | `1.4-applying-playground-techniques-to-github-models.mp4` | HAVE (SRT) |
+| 1.5 | Key Features of Responsible AI — bias, fairness, transparency | `1.5-key-features-of-responsible-ai.mp4` | HAVE |
+| 1.6 | Module Summary — model selection recap | `1.6-summary.mp4` | HAVE (SRT) |
+
+### Module 2: Scaling and Resource Management
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 2.1 | Introduction — moving beyond exploration to production | `2.1-introduction.mp4` | HAVE |
+| 2.2 | Effective Management of Rate Limits — quotas, backoff strategies | `2.2-effective-management-of-rate-limits.mp4` | HAVE |
+| 2.3 | Scaling Beyond the Free Tier — paid plans, enterprise provisioning | `2.3-scaling-beyond-the-free-tier.mp4` | HAVE |
+| 2.4 | What Is Codespaces — cloud dev environments for model experimentation | `2.4-what-is-codespaces.mp4` | HAVE |
+| 2.5 | Management of Codespaces Resources — lifecycle, compute, cost control | `2.5-management-of-codespaces-resources.mp4` | HAVE |
+| 2.6 | Module Summary — scaling and resources recap | `2.6-summary.mp4` | HAVE (SRT) |
+
+### Module 3: Hands-On — Building Applications with GitHub Models
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 3.1 | Introduction — practical application development | `3.1-introduction.mp4` | HAVE (SRT) |
+| 3.2 | Creating a Personal Access Token — PAT setup, scopes, security | `3.2-creating-a-personal-access-token.mp4` | HAVE (SRT) |
+| 3.3 | Setting Up the Development Environment — dependencies, project scaffold | `3.3-setting-up-the-development-environment.mp4` | HAVE |
+| 3.4 | Creating an HTTP API — FastAPI endpoint backed by GitHub Models | `3.4-creating-an-http-api.mp4` | HAVE |
+| 3.5 | Strategies for Testing and Validation — error responses, integration tests | `3.5-strategies-for-testing-and-validation.mp4` | HAVE |
+| 3.6 | Module Summary — API development recap, next steps | `3.6-summary.mp4` | HAVE (SRT) |
+
+---
+
+## Course 5: Advanced Prompting with GitHub Copilot
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 16 videos in `coursera-assets/advanced-prompting-with-github-copilot/`
 
@@ -192,7 +248,7 @@ multiple files to generate production-quality code from API documentation.
 
 ---
 
-## Course 5: GitHub Copilot for System-Level Development
+## Course 6: GitHub Copilot for System-Level Development
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 17 videos in `coursera-assets/ghcp-for-systems-level-development/`
 
@@ -244,7 +300,7 @@ Terraform, and CI pipelines.
 
 ---
 
-## Course 6: Responsible AI Development with GitHub Copilot
+## Course 7: Responsible AI Development with GitHub Copilot
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 16 videos in `coursera-assets/responsible-ai-dev/`
 
@@ -295,7 +351,59 @@ coding standards, and evaluate LLM cost-benefit trade-offs.
 
 ---
 
-## Course 7: Agentic GitHub
+## Course 8: Capstone — Building Production Features with Copilot
+
+> **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 15 videos in `coursera-assets/github-copilot-mastery-capstone/`
+
+End-to-end capstone project: plan, build, and test a production TypeScript
+application using GitHub Copilot. Implement API layers, business logic with
+currency conversions, ORM-backed persistence, and a comprehensive test suite
+with extreme TDD and zero-defect enforcement.
+
+**Learning Objectives:**
+- Plan a production application using Copilot for architecture and quality gates
+- Query internal knowledge bases to gather project context and requirements
+- Build API layers with TypeScript, Zod validation, and type safety
+- Implement complex business rules including currency conversions
+- Design data and runtime layers with ORMs and persistence patterns
+- Construct end-to-end test suites and evaluate against Richardson Maturity Model
+- Apply extreme TDD and zero-defect enforcement practices with AI assistance
+
+**Duration:** 1h 08m | **GitHub Repo:** `paiml/GitHub-Copilot-Mastery-Capstone`
+
+### Module 1: Project Planning and Setup
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 4.1.1 | Capstone Project Overview — architecture and quality standards (3:10) | `4.1.1-capstone-project-overview.mp4` | HAVE |
+| 4.1.2 | Task 0: The Planning Phase — quality gates and developer workflow (4:41) | `4.1.2-task-0-the-planning-phase.mp4` | HAVE |
+| 4.1.3 | Understanding the Project Context — requirements and constraints (5:09) | `4.1.3-understanding-the-context.mp4` | HAVE |
+| 4.1.4 | Querying Internal Knowledge Bases — gathering development context (5:32) | `4.1.4-querying-internal-knowledge-bases.mp4` | HAVE |
+
+### Module 2: Full-Stack Implementation
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 4.2.1 | Task 1: Building the API Layer — TypeScript endpoints (5:12) | `4.2.1-task-1-the-api-layer.mp4` | HAVE |
+| 4.2.2 | Implementing Data Validation — Zod schemas and type safety (4:18) | `4.2.2-implementing-data-validation.mp4` | HAVE |
+| 4.2.3 | Task 2: Implementing Business Logic — core domain rules (3:37) | `4.2.3-task-2-the-business-logic.mp4` | HAVE |
+| 4.2.4 | Handling Complex Business Rules — currency conversions (4:51) | `4.2.4-handling-complex-business-rules.mp4` | HAVE |
+| 4.2.5 | Task 3: Building the Data and Runtime Layer — persistence (5:48) | `4.2.5-task-3-the-data-runtime-layer.mp4` | HAVE |
+| 4.2.6 | Working with ORMs and Persistence Patterns — data access (5:47) | `4.2.6-working-with-orms-and-persistence.mp4` | HAVE |
+
+### Module 3: Testing and Validation
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 4.3.1 | Task 4: Building a Comprehensive Test Suite (3:14) | `4.3.1-task-4-the-test-suite.mp4` | HAVE |
+| 4.3.2 | End-to-End Testing Strategies — integration tests (3:32) | `4.3.2-end-to-end-testing-strategies.mp4` | HAVE |
+| 4.3.3 | Reviewing Your Implementation — quality metrics evaluation (3:20) | `4.3.3-reviewing-your-implementation.mp4` | HAVE |
+| 4.3.4 | Comparing with Best Practices — Richardson Maturity Model, API standards (4:06) | `4.3.4-comparing-with-best-practices.mp4` | HAVE |
+| 4.3.5 | Final Reflections — extreme TDD and zero-defect enforcement with AI (6:17) | `4.3.5-final-reflections-and-next-steps.mp4` | HAVE |
+
+---
+
+## Course 9: Agentic GitHub
 
 > **STATUS: NOT YET PRODUCED** — all videos missing
 
@@ -315,31 +423,31 @@ agent systems with guardrails and human-in-the-loop controls.
 
 | # | Lesson | File | Status |
 |---|--------|------|--------|
-| 7.1.1 | Course Introduction | — | MISSING |
-| 7.1.2 | What Is Agentic AI on GitHub? — autonomous vs. assisted coding | — | MISSING |
-| 7.1.3 | Agent Mode vs. Chat Mode in Copilot — when to use each | — | MISSING |
-| 7.1.4 | MCP Servers: Connecting Agents to Tools — protocol, transports, tool schema | — | MISSING |
-| 7.1.5 | Building Your First MCP Server — end-to-end walkthrough | — | MISSING |
+| 9.1.1 | Course Introduction | — | MISSING |
+| 9.1.2 | What Is Agentic AI on GitHub? — autonomous vs. assisted coding | — | MISSING |
+| 9.1.3 | Agent Mode vs. Chat Mode in Copilot — when to use each | — | MISSING |
+| 9.1.4 | MCP Servers: Connecting Agents to Tools — protocol, transports, tool schema | — | MISSING |
+| 9.1.5 | Building Your First MCP Server — end-to-end walkthrough | — | MISSING |
 
 ### Module 2: Autonomous Workflows
 
 | # | Lesson | File | Status |
 |---|--------|------|--------|
-| 7.2.1 | Agentic CI/CD with GitHub Actions — event-driven agent triggers | — | MISSING |
-| 7.2.2 | Automated Code Review Agents — PR analysis, security scanning | — | MISSING |
-| 7.2.3 | PR Generation and Triage Bots — issue-to-PR automation | — | MISSING |
-| 7.2.4 | Challenge: Build an Automated Review Agent | — | MISSING |
-| 7.2.5 | Solution: Build an Automated Review Agent | — | MISSING |
+| 9.2.1 | Agentic CI/CD with GitHub Actions — event-driven agent triggers | — | MISSING |
+| 9.2.2 | Automated Code Review Agents — PR analysis, security scanning | — | MISSING |
+| 9.2.3 | PR Generation and Triage Bots — issue-to-PR automation | — | MISSING |
+| 9.2.4 | Challenge: Build an Automated Review Agent | — | MISSING |
+| 9.2.5 | Solution: Build an Automated Review Agent | — | MISSING |
 
 ### Module 3: Production Agentic Systems
 
 | # | Lesson | File | Status |
 |---|--------|------|--------|
-| 7.3.1 | Multi-Agent Orchestration Patterns — fan-out, pipeline, consensus | — | MISSING |
-| 7.3.2 | Guardrails and Human-in-the-Loop — approval gates, safety bounds | — | MISSING |
-| 7.3.3 | Monitoring and Observability for Agents — tracing, cost tracking | — | MISSING |
-| 7.3.4 | Scaling Agentic Workflows in Enterprise — rate limits, governance | — | MISSING |
-| 7.3.5 | Course Conclusion and Specialization Wrap-Up | — | MISSING |
+| 9.3.1 | Multi-Agent Orchestration Patterns — fan-out, pipeline, consensus | — | MISSING |
+| 9.3.2 | Guardrails and Human-in-the-Loop — approval gates, safety bounds | — | MISSING |
+| 9.3.3 | Monitoring and Observability for Agents — tracing, cost tracking | — | MISSING |
+| 9.3.4 | Scaling Agentic Workflows in Enterprise — rate limits, governance | — | MISSING |
+| 9.3.5 | Course Conclusion and Specialization Wrap-Up | — | MISSING |
 
 ---
 
@@ -350,17 +458,17 @@ agent systems with guardrails and human-in-the-loop controls.
 | 1 | GitHub from Zero | — | 0/~16 | 0 | **NOT PRODUCED** |
 | 2 | GitHub Foundations: Privacy, Security, and Administration | `github-foundations-privacy/build/` | 16/16 | 16/16 | **COMPLETE** |
 | 3 | Building with the GitHub Ecosystem | `building-with-github-ecosystem/build/` | 10/10 | 10/10 | **COMPLETE** |
-| 4 | Advanced Prompting with GitHub Copilot | `advanced-prompting-with-github-copilot/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 5 | GitHub Copilot for System-Level Development | `ghcp-for-systems-level-development/` | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
-| 6 | Responsible AI Development with GitHub Copilot | `responsible-ai-dev/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 7 | Agentic GitHub | — | 0/~15 | 0 | **NOT PRODUCED** |
+| 4 | Best Practices for Integrating GitHub Models | `github-models/` | 20/20 | 9/20 | **NEED TRANSCRIPTION** |
+| 5 | Advanced Prompting with GitHub Copilot | `advanced-prompting-with-github-copilot/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
+| 6 | GitHub Copilot for System-Level Development | `ghcp-for-systems-level-development/` | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
+| 7 | Responsible AI Development with GitHub Copilot | `responsible-ai-dev/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
+| 8 | Capstone: Building Production Features with Copilot | `github-copilot-mastery-capstone/` | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
+| 9 | Agentic GitHub | — | 0/~15 | 0 | **NOT PRODUCED** |
 
-**Totals:** 75 of ~106 videos have files. 26 SRTs exist. 49 videos need transcription. ~31 videos not yet produced.
+**Totals:** 110 of ~141 videos have files. 35 SRTs exist. 75 videos need transcription. ~31 videos not yet produced.
 
-### Not included in specialization (standalone products)
+### Not included in specialization (standalone product)
 
 | Course | Dir | Videos | Notes |
 |--------|-----|--------|-------|
 | GitHub Administration Cert Prep (7 domains) | `github-enterprise/build/` | 45 + 45 SRTs | Standalone specialization on Coursera |
-| Best Practices for Integrating GitHub Models | `github-models/` | 20 + 9 SRTs | Alfredo Deza; may fold into Agentic GitHub |
-| Capstone: Building Production Features with Copilot | `github-copilot-mastery-capstone/` | 15 | Xero/LinkedIn co-production (1h08m) |
