@@ -1,4 +1,4 @@
-# Mastering GitHub — 9-Course Coursera Specialization
+# Mastering GitHub — 10-Course Coursera Specialization
 
 Progressive ladder from zero to agentic GitHub workflows. Each course ~60 minutes,
 3–5 minute videos.
@@ -140,7 +140,107 @@ GitHub Actions, and create end-to-end DevOps projects.
 
 ---
 
-## Course 4: Best Practices for Integrating GitHub Models
+## Course 4: GitHub Administration Certification Prep
+
+> **STATUS: COMPLETE** — 45 videos + 45 SRTs in `coursera-assets/github-enterprise/build/`
+
+Comprehensive preparation for the GitHub Administration certification exam.
+Master all seven exam domains: enterprise ecosystem, identity management,
+deployment and Codespaces, access permissions, security features, Actions
+management, and GitHub Packages distribution.
+
+**Learning Objectives:**
+- Explain the GitHub Enterprise ecosystem including repos, orgs, teams, and workflows
+- Configure enterprise managed users, 2FA, and authentication policies
+- Deploy and customize GitHub Codespaces with GPU acceleration
+- Assign repository permissions, visibility, and privacy settings following least privilege
+- Use the Security tab, repository insights, and Kaizen methodology for continuous improvement
+- Manage GitHub Actions at enterprise scale with self-hosted runners and API automation
+- Publish and manage packages using GitHub Packages and GitHub Actions
+
+### Module 1: Domain 1 — GitHub Ecosystem and Administration
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 1.0 | Series Introduction — seven certification domains overview | `1.0-series-intro.mp4` | HAVE |
+| 1.1 | Domain 1 Introduction — supporting enterprise users and stakeholders | `1.1-intro-domain-one.mp4` | HAVE |
+| 1.2 | GitHub Administration Introduction — console, settings, profile walkthrough | `1.2-github-administration-introduction.mp4` | HAVE |
+| 1.4 | Key Concepts: GitHub Ecosystem — repos, orgs, teams, workflows | `1.4-Key-Concepts-GitHub-Ecosytem-v2.mp4` | HAVE |
+| 1.5 | Cloud Developer Workspaces — Codespaces overview, dev containers | `1.5-cloud-developer-workspaces.mp4` | HAVE |
+| 1.6 | Demo: GitHub Templates — repository and Codespace templates | `1.6-demo-GitHub-templates.mp4` | HAVE |
+| 1.7 | MLOps Hierarchy of Needs — ML workflow integration with GitHub | `1.7-mlops-hierarchy-of-needs.mp4` | HAVE |
+
+### Module 2: Domain 2 — User Identity and Authentication
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 2.0 | Domain 2 Introduction — managing identities and authentication | `2.0-course-introduction-v2.mp4` | HAVE |
+| 2.2 | Enterprise Managed Users — IDP provisioning, SCIM, centralized identity | `2.2-enterprise-managed-users-explanation.mp4` | HAVE |
+| 2.6 | Securing Accounts with 2FA — TOTP apps, recovery codes, enforcement | `2.6-securing-account-with-2fa.mp4` | HAVE |
+| 2.8 | Authentication and Security Introduction — UI layer, API tokens, SSH keys | `2.8-authentication-and-security-introduction.mp4` | HAVE |
+| 2.10 | Principle of Least Privilege — minimum permissions, org/team/repo levels | `2.10-plp-github-enterprise.mp4` | HAVE |
+
+### Module 3: Domain 3 — Deployment, Codespaces, and CI
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 3.0 | Domain 3 Introduction — deployment, distribution, and licensing | `3.0-course-introduction.mp4` | HAVE |
+| 3.1 | Introducing GitHub Codespaces — cloud development environments | `3.1-Introducing-GitHub-Codespaces.mp4` | HAVE |
+| 3.2 | Enterprise Billing Console — cost management, spending limits | `3.2-enteprise-billing-console.mp4` | HAVE |
+| 3.3 | Demo: Codespaces — dev container config, customization, port forwarding | `3.3-demo-codespaces.mp4` | HAVE |
+| 3.4 | Demo: GPU + Whisper — Nvidia monitoring, CUDA, GPU transcription | `3.4-demo-gpu-whisper.mp4` | HAVE |
+| 3.6 | Demo: GPU + Hugging Face Fine-Tuning — model hosting, fine-tuning workflow | `3.6-demo-gpu-hugging-face-fine-tuning.mp4` | HAVE |
+| 3.8 | GitHub Continuous Integration — CI pipelines, build automation | `3.8-github-continuous-integration.mp4` | HAVE |
+| 3.10 | Customizing GitHub Codespaces — deep dive, dotfiles, extensions | `3.10-Customizing-GitHub-CodeSpaces-One-Hour-Deep-Dive-Alfredo-Deza.mp4` | HAVE |
+
+### Module 4: Domain 4 — Access Permissions and Organizations
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 4.0 | Domain 4 Introduction — access, permissions, and privacy | `4.0-course-introduction.mp4` | HAVE |
+| 4.2 | Access Permissions Overview — user types, repo access levels, org roles | `4.2-access-permissions-overview.mp4` | HAVE |
+| 4.8 | Repository Permission Levels — no access, read, write, admin use cases | `4.8-repository-permission-levels.mp4` | HAVE |
+| 4.10 | Repository Visibility Options — public, private, internal trade-offs | `4.10-repository-visibility-options.mp4` | HAVE |
+| 4.12 | Repository Privacy Settings — enterprise-to-repo policy cascade | `4.12-repository-privacy-settings.mp4` | HAVE |
+| 4.14 | Managing Collaborators — read/write/admin, inviting team members | `4.14-managing-collaborators.mp4` | HAVE |
+| 4.15 | Managing Organization Settings — enterprise controls, multiple orgs | `4.15-managing-organization-settings-v2.mp4` | HAVE |
+| 4.16 | Members, Teams, and Roles — member vs. owner, team-based permissions | `4.16-members-teams-roles-in-github-organization.mp4` | HAVE |
+
+### Module 5: Domain 5 — Security Features and Insights
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 5.0 | Domain 5 Introduction — security features overview | `5.0-course-introduction.mp4` | HAVE |
+| 5.2 | Security Tab Features — vulnerability alerts, code scanning, Dependabot | `5.2-security-tab-features-and-option.mp4` | HAVE |
+| 5.4 | Defining Repository Insights — metrics dashboards, traffic, contributors | `5.4-defining-repository-insights.mp4` | HAVE |
+| 5.6 | Heavy vs. Light MLOps with GitHub — batch vs. streaming ML workflows | `5.6-heavy-vs-light-mlops-with-github.mp4` | HAVE |
+| 5.8 | Enabling and Disabling Features — enterprise policies, org-level controls | `5.8-enabling-disabling-features.mp4` | HAVE |
+| 5.10 | Kaizen Methodology — continuous improvement for GitHub workflows | `5.10-kazien-methodology.mp4` | HAVE |
+
+### Module 6: Domain 6 — GitHub Actions Management
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 6.0 | Domain 6 Introduction — Actions at enterprise scale | `6.0-course-introduction.mp4` | HAVE |
+| 6.1 | Managing GitHub Actions in Enterprise — API automation, self-hosted runners | `6.1-managing-github-actions-enterprise.mp4` | HAVE |
+| 6.2 | Hello World CI with GitHub Actions — workflow YAML, triggers | `6.2-hello-world-ci-github-actions-v2.mp4` | HAVE |
+| 6.4 | Demo: GitHub Actions — build pipelines, CI workflows | `6.4-demo-github-actions.mp4` | HAVE |
+| 6.8 | Compiling Python in GitHub Codespaces — build environments | `6.8-Compiling-Python-in-Github-CodeSpaces.mp4` | HAVE |
+
+### Module 7: Domain 7 — GitHub Packages and Distribution
+
+| # | Lesson | File | Status |
+|---|--------|------|--------|
+| 7.0 | Domain 7 Introduction — packages overview | `7.0-course-introduction.mp4` | HAVE |
+| 7.2 | GitHub Enterprise Package Registry — containers, libraries, permissions | `7.2-GitHub-Enterprise-package-registry.mp4` | HAVE |
+| 7.4 | Learn GitHub Packages — capabilities, access control, versioning | `7.4-learn-github-packages.mp4` | HAVE |
+| 7.6 | Publish with Actions — automated package publishing workflows | `7.6-publish-with-actions.mp4` | HAVE |
+| 7.9 | Package and Release — versioned releases, distribution | `7.9-package-and-release.mp4` | HAVE |
+| 7.10 | Next Steps — recap and certification exam guidance | `7.10-next-steps.mp4` | HAVE |
+
+---
+
+## Course 5: Best Practices for Integrating GitHub Models
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 20 videos in `coursera-assets/github-models/` (9 SRTs in `transcriptions/`)
 
@@ -196,7 +296,7 @@ and build an HTTP API backed by GitHub Models using personal access tokens.
 
 ---
 
-## Course 5: Advanced Prompting with GitHub Copilot
+## Course 6: Advanced Prompting with GitHub Copilot
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 16 videos in `coursera-assets/advanced-prompting-with-github-copilot/`
 
@@ -248,7 +348,7 @@ multiple files to generate production-quality code from API documentation.
 
 ---
 
-## Course 6: GitHub Copilot for System-Level Development
+## Course 7: GitHub Copilot for System-Level Development
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 17 videos in `coursera-assets/ghcp-for-systems-level-development/`
 
@@ -300,7 +400,7 @@ Terraform, and CI pipelines.
 
 ---
 
-## Course 7: Responsible AI Development with GitHub Copilot
+## Course 8: Responsible AI Development with GitHub Copilot
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 16 videos in `coursera-assets/responsible-ai-dev/`
 
@@ -351,7 +451,7 @@ coding standards, and evaluate LLM cost-benefit trade-offs.
 
 ---
 
-## Course 8: Agentic GitHub
+## Course 9: Agentic GitHub
 
 > **STATUS: NOT YET PRODUCED** — all videos missing
 
@@ -399,7 +499,7 @@ agent systems with guardrails and human-in-the-loop controls.
 
 ---
 
-## Course 9: Capstone — Building Production Features with Copilot
+## Course 10: Capstone — Building Production Features with Copilot
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 15 videos in `coursera-assets/github-copilot-mastery-capstone/`
 
@@ -458,17 +558,12 @@ with extreme TDD and zero-defect enforcement.
 | 1 | GitHub from Zero | — | 0/~16 | 0 | **NOT PRODUCED** |
 | 2 | GitHub Foundations: Privacy, Security, and Administration | `github-foundations-privacy/build/` | 16/16 | 16/16 | **COMPLETE** |
 | 3 | Building with the GitHub Ecosystem | `building-with-github-ecosystem/build/` | 10/10 | 10/10 | **COMPLETE** |
-| 4 | Best Practices for Integrating GitHub Models | `github-models/` | 20/20 | 9/20 | **NEED TRANSCRIPTION** |
-| 5 | Advanced Prompting with GitHub Copilot | `advanced-prompting-with-github-copilot/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 6 | GitHub Copilot for System-Level Development | `ghcp-for-systems-level-development/` | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
-| 7 | Responsible AI Development with GitHub Copilot | `responsible-ai-dev/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 8 | Agentic GitHub | — | 0/~15 | 0 | **NOT PRODUCED** |
-| 9 | Capstone: Building Production Features with Copilot | `github-copilot-mastery-capstone/` | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
+| 4 | GitHub Administration Certification Prep | `github-enterprise/build/` | 45/45 | 45/45 | **COMPLETE** |
+| 5 | Best Practices for Integrating GitHub Models | `github-models/` | 20/20 | 9/20 | **NEED TRANSCRIPTION** |
+| 6 | Advanced Prompting with GitHub Copilot | `advanced-prompting-with-github-copilot/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
+| 7 | GitHub Copilot for System-Level Development | `ghcp-for-systems-level-development/` | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
+| 8 | Responsible AI Development with GitHub Copilot | `responsible-ai-dev/` | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
+| 9 | Agentic GitHub | — | 0/~15 | 0 | **NOT PRODUCED** |
+| 10 | Capstone: Building Production Features with Copilot | `github-copilot-mastery-capstone/` | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
 
-**Totals:** 110 of ~141 videos have files. 35 SRTs exist. 75 videos need transcription. ~31 videos not yet produced.
-
-### Not included in specialization (standalone product)
-
-| Course | Dir | Videos | Notes |
-|--------|-----|--------|-------|
-| GitHub Administration Cert Prep (7 domains) | `github-enterprise/build/` | 45 + 45 SRTs | Standalone specialization on Coursera |
+**Totals:** 155 of ~186 videos have files. 80 SRTs exist. 75 videos need transcription. ~31 videos not yet produced.
