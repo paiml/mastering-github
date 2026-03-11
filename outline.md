@@ -1,4 +1,4 @@
-# Mastering GitHub — 10-Course Coursera Specialization
+# Mastering GitHub: 10-Course Coursera Specialization
 
 Progressive ladder from zero to agentic GitHub workflows. Each course ~60 minutes,
 3–5 minute videos.
@@ -13,7 +13,7 @@ Each lesson produces `key-terms.md` and `reflection.md`. Each module ends with a
 
 ---
 
-## Course 1: From Zero to Pull Request
+## Course 1: GitHub: From Zero to Pull Request
 
 > **STATUS: NOT YET PRODUCED** — all videos missing
 
@@ -100,7 +100,7 @@ project boards, and forks.
 
 ---
 
-## Course 2: Security, Identity, and Access
+## Course 2: GitHub: Security, Identity, and Access
 
 > **STATUS: COMPLETE** — 16 videos + 16 SRTs in `coursera-assets/github-foundations-privacy/build/`
 
@@ -168,7 +168,7 @@ organizations with teams, roles, and security policies.
 
 ---
 
-## Course 3: Codespaces, Actions, and Ecosystem Tools
+## Course 3: GitHub: Codespaces, Actions, and Ecosystem Tools
 
 > **STATUS: COMPLETE** — 10 videos + 10 SRTs in `coursera-assets/building-with-github-ecosystem/build/`
 
@@ -234,7 +234,7 @@ GitHub Actions, and create end-to-end DevOps projects.
 
 ---
 
-## Course 4: Enterprise Administration Across Seven Domains
+## Course 4: GitHub: Enterprise Administration Across Seven Domains
 
 > **STATUS: COMPLETE** — 45 videos + 45 SRTs in `coursera-assets/github-enterprise/build/`
 
@@ -348,7 +348,7 @@ management, and GitHub Packages distribution.
 
 | # | Video | File | Status |
 |---|-------|------|--------|
-| 1 | Heavy vs. Light MLOps with GitHub — batch vs. streaming ML workflows | `5.6-heavy-vs-light-mlops-with-github.mp4` | HAVE |
+| 1 | Heavy vs. Light MLOps with GitHub: batch vs. streaming ML workflows | `5.6-heavy-vs-light-mlops-with-github.mp4` | HAVE |
 | 2 | Enabling and Disabling Features — enterprise policies, org-level controls | `5.8-enabling-disabling-features.mp4` | HAVE |
 | 3 | Kaizen Methodology — continuous improvement for GitHub workflows | `5.10-kazien-methodology.mp4` | HAVE |
 
@@ -391,7 +391,7 @@ management, and GitHub Packages distribution.
 
 ---
 
-## Course 5: Evaluating and Integrating AI Models
+## Course 5: GitHub: Evaluating and Integrating AI Models
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 20 videos in `coursera-assets/github-models/` (9 SRTs in `transcriptions/`)
 
@@ -481,7 +481,7 @@ and build an HTTP API backed by GitHub Models using personal access tokens.
 
 ---
 
-## Course 6: Advanced Prompt Engineering for Code
+## Course 6: GitHub: Advanced Prompt Engineering for Code
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 16 videos in `coursera-assets/advanced-prompting-with-github-copilot/`
 
@@ -552,7 +552,7 @@ multiple files to generate production-quality code from API documentation.
 
 ---
 
-## Course 7: AI-Augmented Testing and Refactoring
+## Course 7: GitHub: AI-Augmented Testing and Refactoring
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 17 videos in `coursera-assets/ghcp-for-systems-level-development/`
 
@@ -623,7 +623,7 @@ cloud provisioning, and CI pipelines.
 
 ---
 
-## Course 8: Governing AI-Generated Code
+## Course 8: GitHub: Governing AI-Generated Code
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 16 videos in `coursera-assets/responsible-ai-dev/`
 
@@ -693,7 +693,7 @@ coding standards, and evaluate LLM cost-benefit trade-offs.
 
 ---
 
-## Course 9: Autonomous Agent Workflows
+## Course 9: GitHub: Autonomous Agent Workflows
 
 > **STATUS: NOT YET PRODUCED** — all videos missing
 
@@ -780,7 +780,7 @@ agent systems with guardrails and human-in-the-loop controls.
 
 ---
 
-## Course 10: Production Application Capstone
+## Course 10: GitHub: Production Application Capstone
 
 > **STATUS: VIDEOS COMPLETE, NEED TRANSCRIPTION** — 15 videos in `coursera-assets/github-copilot-mastery-capstone/`
 
@@ -855,16 +855,16 @@ zero-defect enforcement.
 
 | # | Course | Modules | Lessons | Videos | SRTs | Status |
 |---|--------|---------|---------|--------|------|--------|
-| 1 | From Zero to Pull Request | 3 | 6 + 3 CTA | 0/18 | 0 | **NOT PRODUCED** |
-| 2 | Security, Identity, and Access | 2 | 4 + 2 CTA | 16/16 | 16/16 | **COMPLETE** |
-| 3 | Codespaces, Actions, and Ecosystem Tools | 2 | 4 + 2 CTA | 10/14 | 10/10 | **4 MISSING** |
-| 4 | Enterprise Administration Across Seven Domains | 4 | 12 + 4 CTA | 45/45 | 45/45 | **COMPLETE** |
-| 5 | Evaluating and Integrating AI Models | 3 | 6 + 3 CTA | 20/20 | 9/20 | **NEED TRANSCRIPTION** |
-| 6 | Advanced Prompt Engineering for Code | 2 | 4 + 2 CTA | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 7 | AI-Augmented Testing and Refactoring | 2 | 4 + 2 CTA | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
-| 8 | Governing AI-Generated Code | 2 | 4 + 2 CTA | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
-| 9 | Autonomous Agent Workflows | 3 | 6 + 3 CTA | 0/18 | 0 | **NOT PRODUCED** |
-| 10 | Production Application Capstone | 2 | 4 + 2 CTA | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
+| 1 | GitHub: From Zero to Pull Request | 3 | 6 + 3 CTA | 0/18 | 0 | **NOT PRODUCED** |
+| 2 | GitHub: Security, Identity, and Access | 2 | 4 + 2 CTA | 16/16 | 16/16 | **COMPLETE** |
+| 3 | GitHub: Codespaces, Actions, and Ecosystem Tools | 2 | 4 + 2 CTA | 10/14 | 10/10 | **4 MISSING** |
+| 4 | GitHub: Enterprise Administration Across Seven Domains | 4 | 12 + 4 CTA | 45/45 | 45/45 | **COMPLETE** |
+| 5 | GitHub: Evaluating and Integrating AI Models | 3 | 6 + 3 CTA | 20/20 | 9/20 | **NEED TRANSCRIPTION** |
+| 6 | GitHub: Advanced Prompt Engineering for Code | 2 | 4 + 2 CTA | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
+| 7 | GitHub: AI-Augmented Testing and Refactoring | 2 | 4 + 2 CTA | 17/17 | 0/17 | **NEED TRANSCRIPTION** |
+| 8 | GitHub: Governing AI-Generated Code | 2 | 4 + 2 CTA | 16/16 | 0/16 | **NEED TRANSCRIPTION** |
+| 9 | GitHub: Autonomous Agent Workflows | 3 | 6 + 3 CTA | 0/18 | 0 | **NOT PRODUCED** |
+| 10 | GitHub: Production Application Capstone | 2 | 4 + 2 CTA | 15/15 | 0/15 | **NEED TRANSCRIPTION** |
 
 **Totals:** 155 of ~195 videos have files. 80 SRTs exist. 75 videos need transcription. ~40 videos not yet produced.
 

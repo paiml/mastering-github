@@ -1,2 +1,8 @@
 # Course video assets (large binaries — local only)
 coursera-assets/
+
+# Per-course Lua configs (local rmedia tooling)
+config/
+
+# Generated Coursera marketing copy (local output)
+coursera-output/
