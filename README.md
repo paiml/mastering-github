@@ -23,6 +23,14 @@ building autonomous agent workflows.
 | 9 | **Autonomous Agent Workflows** | Copilot agents, MCP, multi-step automation | TBD |
 | 10 | **Production Application Capstone** | End-to-end project integrating all specialization skills | TBD |
 
+## Capstone Projects
+
+<p align="center">
+  <img src="capstones/banner.svg" alt="Capstone Projects" width="100%"/>
+</p>
+
+Each course includes a hands-on capstone project that integrates all modules into a realistic scenario. See the [capstones/](capstones/) directory.
+
 ## Structure
 
 Each course is ~60 minutes of 3–5 minute videos organized as:
