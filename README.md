@@ -10,18 +10,18 @@ building autonomous agent workflows.
 
 ## Courses
 
-| # | Course | Focus | Labs |
-|---|--------|-------|------|
-| 1 | **From Zero to Pull Request** | Git workflow, branches, merges, issues, forks | — |
-| 2 | **Security, Identity, and Access** | 2FA, SSH keys, repository visibility, org policies | [Capstone](capstones/c02-capstone.md) |
-| 3 | **Codespaces, Actions, and Ecosystem Tools** | Cloud IDEs, GPU instances, CI/CD, Copilot | [Capstone](capstones/c03-capstone.md) |
-| 4 | **Enterprise Administration Across Seven Domains** | Org management, RBAC, compliance, audit logs | — |
-| 5 | **Evaluating and Integrating AI Models** | GitHub Models, API tokens, model comparison | — |
-| 6 | **Advanced Prompt Engineering for Code** | Multi-file context, slash commands, Copilot Chat | [Labs](https://github.com/paiml/advanced-prompting-with-github-copilot) |
-| 7 | **AI-Augmented Testing and Refactoring** | Test generation, code review, refactoring patterns | [Labs](https://github.com/paiml/ghcp-for-systems-level-development) |
-| 8 | **Governing AI-Generated Code** | Security audit, license compliance, responsible AI | [Labs](https://github.com/paiml/responsible-ai-dev) |
-| 9 | **Autonomous Agent Workflows** | Copilot agents, MCP, multi-step automation | — |
-| 10 | **Production Application Capstone** | End-to-end project integrating all specialization skills | [Labs](https://github.com/paiml/GitHub-Copilot-Mastery-Capstone) |
+| # | Course | Focus | Capstone | Labs |
+|---|--------|-------|----------|------|
+| 1 | **From Zero to Pull Request** | Git workflow, branches, merges, issues, forks | [Capstone](capstones/c01-capstone.md) | — |
+| 2 | **Security, Identity, and Access** | 2FA, SSH keys, repository visibility, org policies | [Capstone](capstones/c02-capstone.md) | — |
+| 3 | **Codespaces, Actions, and Ecosystem Tools** | Cloud IDEs, GPU instances, CI/CD, Copilot | [Capstone](capstones/c03-capstone.md) | — |
+| 4 | **Enterprise Administration Across Seven Domains** | Org management, RBAC, compliance, audit logs | [Capstone](capstones/c04-capstone.md) | — |
+| 5 | **Evaluating and Integrating AI Models** | GitHub Models, API tokens, model comparison | [Capstone](capstones/c05-capstone.md) | — |
+| 6 | **Advanced Prompt Engineering for Code** | Multi-file context, slash commands, Copilot Chat | [Capstone](capstones/c06-capstone.md) | [Labs](https://github.com/paiml/advanced-prompting-with-github-copilot) |
+| 7 | **AI-Augmented Testing and Refactoring** | Test generation, code review, refactoring patterns | [Capstone](capstones/c07-capstone.md) | [Labs](https://github.com/paiml/ghcp-for-systems-level-development) |
+| 8 | **Governing AI-Generated Code** | Security audit, license compliance, responsible AI | [Capstone](capstones/c08-capstone.md) | [Labs](https://github.com/paiml/responsible-ai-dev) |
+| 9 | **Autonomous Agent Workflows** | Copilot agents, MCP, multi-step automation | [Capstone](capstones/c09-capstone.md) | — |
+| 10 | **Production Application Capstone** | End-to-end project integrating all specialization skills | [Capstone](capstones/c10-capstone.md) | [Labs](https://github.com/paiml/GitHub-Copilot-Mastery-Capstone) |
 
 ## Repositories
 
