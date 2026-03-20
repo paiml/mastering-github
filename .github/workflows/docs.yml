@@ -1,0 +1,14 @@
+name: Docs
+
+on:
+  push:
+    branches: [main]
+    paths: ['capstones/**', 'README.md']
+
+jobs:
+  validate-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate capstone structure
+        run: make test
