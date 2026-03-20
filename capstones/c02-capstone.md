@@ -37,3 +37,12 @@ Enable Dependabot alerts, code scanning, and secret scanning across all reposito
 - References 2FA, SSH, and permission levels but does not complete the enrollment workflow or explain the security rationale behind each configuration choice
 - Creates repositories without varying visibility or assigning team-based permissions, resulting in all members having the same access
 - Enables scanning features without reviewing results or auditing collaborator access levels
+
+## Share Your Work
+
+Add this capstone to your LinkedIn profile as a portfolio project:
+
+1. Go to your LinkedIn profile and select **Add profile section** > **Projects**
+2. Title: "Security, Identity, and Access — Mastering GitHub Specialization"
+3. Description: Summarize the project deliverables and key skills demonstrated
+4. Link: Include the URL to your completed GitHub repository

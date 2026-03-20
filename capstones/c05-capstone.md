@@ -37,3 +37,12 @@ Set up a development environment in Codespaces with the required SDK dependencie
 - Explores the GitHub Models marketplace but does not conduct a systematic comparison or document the selection rationale
 - Creates an API token without documenting scope, rate limits, or scaling considerations
 - Attempts an API integration but the endpoint does not handle errors or validate input
+
+## Share Your Work
+
+Add this capstone to your LinkedIn profile as a portfolio project:
+
+1. Go to your LinkedIn profile and select **Add profile section** > **Projects**
+2. Title: "Evaluating and Integrating AI Models — Mastering GitHub Specialization"
+3. Description: Summarize the project deliverables and key skills demonstrated
+4. Link: Include the URL to your completed GitHub repository

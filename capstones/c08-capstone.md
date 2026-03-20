@@ -37,3 +37,12 @@ Compare at least three language models available through GitHub Copilot on the s
 - Reviews AI-generated code and identifies some issues but without a systematic audit methodology or documentation of findings
 - Creates a copilot-instructions.md file but does not test its effect on Copilot output or document the configuration strategy
 - References different LLMs but does not conduct a structured comparison or justify the selection
+
+## Share Your Work
+
+Add this capstone to your LinkedIn profile as a portfolio project:
+
+1. Go to your LinkedIn profile and select **Add profile section** > **Projects**
+2. Title: "Governing AI-Generated Code — Mastering GitHub Specialization"
+3. Description: Summarize the project deliverables and key skills demonstrated
+4. Link: Include the URL to your completed GitHub repository

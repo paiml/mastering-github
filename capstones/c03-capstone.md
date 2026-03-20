@@ -37,3 +37,12 @@ Use GitHub Copilot Chat to generate a Python function (such as a data preprocess
 - Attempts a dev container configuration but the Codespace fails to build or is missing key dependencies
 - Creates a workflow file that does not trigger correctly or fails on execution without diagnosis
 - Mentions Copilot features without demonstrating actual usage or documenting prompts and outputs
+
+## Share Your Work
+
+Add this capstone to your LinkedIn profile as a portfolio project:
+
+1. Go to your LinkedIn profile and select **Add profile section** > **Projects**
+2. Title: "Codespaces, Actions, and Ecosystem Tools — Mastering GitHub Specialization"
+3. Description: Summarize the project deliverables and key skills demonstrated
+4. Link: Include the URL to your completed GitHub repository
