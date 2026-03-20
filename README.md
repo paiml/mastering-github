@@ -44,6 +44,23 @@ All course code and labs live in public GitHub repositories under the [paiml](ht
 
 Each course includes a hands-on capstone project that integrates all modules into a realistic scenario. Completed capstones can be shared on LinkedIn as portfolio projects. See the [capstones/](capstones/) directory.
 
+## Installation
+
+```bash
+git clone https://github.com/paiml/mastering-github.git
+cd mastering-github
+make check
+```
+
+## Usage
+
+```bash
+make help          # Show available commands
+make lint          # Lint markdown files
+make test          # Validate course structure (9 courses, capstone sections)
+make check         # Run lint + test
+```
+
 ## Structure
 
 Each course is ~60 minutes of 3–5 minute videos organized as:
