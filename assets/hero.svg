@@ -1,151 +1,137 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="460" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="480" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#161b22"/>
-    </linearGradient>
-    <linearGradient id="line-grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4a9eff"/>
-      <stop offset="50%" stop-color="#9f8fef"/>
-      <stop offset="100%" stop-color="#ffab00"/>
     </linearGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="460" rx="12" fill="url(#bg)"/>
+  <rect width="1200" height="480" rx="12" fill="url(#bg)"/>
 
   <!-- Subtle grid dots -->
   <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-    <circle cx="20" cy="20" r="0.5" fill="#30363d"/>
+    <circle cx="20" cy="20" r="0.6" fill="#30363d"/>
   </pattern>
-  <rect width="1200" height="460" fill="url(#dots)"/>
+  <rect width="1200" height="480" fill="url(#dots)"/>
 
   <!-- Title -->
-  <text x="600" y="52" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="32" font-weight="700" fill="#e6edf3" letter-spacing="0.5">Mastering GitHub</text>
-  <text x="600" y="78" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#8b949e" letter-spacing="1">FROM FIRST COMMIT TO AUTONOMOUS AGENTS · 10-COURSE SPECIALIZATION</text>
-
-  <!-- Connecting paths — Row 1 -->
-  <line x1="160" y1="180" x2="1040" y2="180" stroke="#21262d" stroke-width="2" stroke-dasharray="6 4"/>
-  <!-- Connecting paths — Row 2 -->
-  <line x1="160" y1="340" x2="1040" y2="340" stroke="#21262d" stroke-width="2" stroke-dasharray="6 4"/>
-  <!-- Row connector -->
-  <line x1="1040" y1="180" x2="1040" y2="220" stroke="#21262d" stroke-width="2" stroke-dasharray="6 4"/>
-  <line x1="1040" y1="220" x2="160" y2="220" stroke="#21262d" stroke-width="2" stroke-dasharray="6 4"/>
-  <line x1="160" y1="220" x2="160" y2="340" stroke="#21262d" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="36" font-weight="700" fill="#e6edf3" letter-spacing="0.5">Mastering GitHub</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#9eaab6" letter-spacing="2">FROM FIRST COMMIT TO PRODUCTION APPLICATIONS · 9 COURSES</text>
 
   <!-- ═══ ROW 1: Courses 1–5 (y=180) ═══ -->
 
+  <!-- Connecting line Row 1 -->
+  <line x1="148" y1="180" x2="1052" y2="180" stroke="#21262d" stroke-width="2"/>
+
   <!-- Course 1: From Zero to Pull Request — merge arrows -->
-  <g transform="translate(160,180)">
-    <circle r="28" fill="#4a9eff" fill-opacity="0.12" stroke="#4a9eff" stroke-width="2"/>
-    <line x1="-8" y1="-10" x2="0" y2="0" stroke="#4a9eff" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="8" y1="-10" x2="0" y2="0" stroke="#4a9eff" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="0" y1="0" x2="0" y2="12" stroke="#4a9eff" stroke-width="2.5" stroke-linecap="round"/>
-    <circle cx="0" cy="-10" r="3" fill="#4a9eff" fill-opacity="0.3"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Pull Requests</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#4a9eff">1</text>
+  <g transform="translate(148,180)">
+    <circle r="36" fill="#4a9eff" fill-opacity="0.12" stroke="#4a9eff" stroke-width="2.5"/>
+    <line x1="-10" y1="-12" x2="0" y2="0" stroke="#4a9eff" stroke-width="3" stroke-linecap="round"/>
+    <line x1="10" y1="-12" x2="0" y2="0" stroke="#4a9eff" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="0" y2="14" stroke="#4a9eff" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-10" cy="-12" r="3.5" fill="#4a9eff" fill-opacity="0.4"/>
+    <circle cx="10" cy="-12" r="3.5" fill="#4a9eff" fill-opacity="0.4"/>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Pull Requests</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#4a9eff">1</text>
   </g>
 
-  <!-- Course 2: Security, Identity, and Access — shield -->
-  <g transform="translate(380,180)">
-    <circle r="28" fill="#4a9eff" fill-opacity="0.12" stroke="#4a9eff" stroke-width="2"/>
-    <path d="M0-14 L10-8 L10 2 Q10 12 0 16 Q-10 12 -10 2 L-10-8 Z" fill="#4a9eff" fill-opacity="0.15" stroke="#4a9eff" stroke-width="2" stroke-linejoin="round"/>
-    <line x1="0" y1="-6" x2="0" y2="4" stroke="#4a9eff" stroke-width="2" stroke-linecap="round"/>
-    <circle cx="0" cy="7" r="1.5" fill="#4a9eff"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Security</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#4a9eff">2</text>
+  <!-- Course 2: Security — shield -->
+  <g transform="translate(374,180)">
+    <circle r="36" fill="#4a9eff" fill-opacity="0.12" stroke="#4a9eff" stroke-width="2.5"/>
+    <path d="M0-16 L12-9 L12 3 Q12 14 0 18 Q-12 14 -12 3 L-12-9 Z" fill="#4a9eff" fill-opacity="0.15" stroke="#4a9eff" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="0" y1="-6" x2="0" y2="4" stroke="#4a9eff" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="0" cy="8" r="2" fill="#4a9eff"/>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Security</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#4a9eff">2</text>
   </g>
 
-  <!-- Course 3: Codespaces, Actions — cloud -->
+  <!-- Course 3: Codespaces & Actions — cloud -->
   <g transform="translate(600,180)">
-    <circle r="28" fill="#9f8fef" fill-opacity="0.12" stroke="#9f8fef" stroke-width="2"/>
-    <path d="M-10 4 Q-10-6 -2-6 Q0-14 8-10 Q16-8 14 0 Q18 6 12 6 L-8 6 Q-14 6 -10 4 Z" fill="#9f8fef" fill-opacity="0.15" stroke="#9f8fef" stroke-width="2"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Codespaces</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#9f8fef">3</text>
+    <circle r="36" fill="#9f8fef" fill-opacity="0.12" stroke="#9f8fef" stroke-width="2.5"/>
+    <path d="M-12 5 Q-12-7 -3-7 Q0-16 10-12 Q18-8 16 0 Q22 7 14 7 L-10 7 Q-16 7 -12 5 Z" fill="#9f8fef" fill-opacity="0.15" stroke="#9f8fef" stroke-width="2.5"/>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Actions</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#9f8fef">3</text>
   </g>
 
-  <!-- Course 4: Enterprise Administration — building -->
-  <g transform="translate(820,180)">
-    <circle r="28" fill="#9f8fef" fill-opacity="0.12" stroke="#9f8fef" stroke-width="2"/>
-    <rect x="-10" y="-12" width="20" height="24" rx="2" fill="#9f8fef" fill-opacity="0.15" stroke="#9f8fef" stroke-width="2"/>
-    <line x1="-5" y1="-6" x2="-5" y2="-2" stroke="#9f8fef" stroke-width="1.5"/>
-    <line x1="0" y1="-6" x2="0" y2="-2" stroke="#9f8fef" stroke-width="1.5"/>
-    <line x1="5" y1="-6" x2="5" y2="-2" stroke="#9f8fef" stroke-width="1.5"/>
-    <line x1="-5" y1="2" x2="-5" y2="6" stroke="#9f8fef" stroke-width="1.5"/>
-    <line x1="0" y1="2" x2="0" y2="6" stroke="#9f8fef" stroke-width="1.5"/>
-    <line x1="5" y1="2" x2="5" y2="6" stroke="#9f8fef" stroke-width="1.5"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Enterprise</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#9f8fef">4</text>
+  <!-- Course 4: Enterprise — building -->
+  <g transform="translate(826,180)">
+    <circle r="36" fill="#9f8fef" fill-opacity="0.12" stroke="#9f8fef" stroke-width="2.5"/>
+    <rect x="-12" y="-14" width="24" height="28" rx="3" fill="#9f8fef" fill-opacity="0.15" stroke="#9f8fef" stroke-width="2.5"/>
+    <line x1="-6" y1="-7" x2="-6" y2="-2" stroke="#9f8fef" stroke-width="2"/>
+    <line x1="0" y1="-7" x2="0" y2="-2" stroke="#9f8fef" stroke-width="2"/>
+    <line x1="6" y1="-7" x2="6" y2="-2" stroke="#9f8fef" stroke-width="2"/>
+    <line x1="-6" y1="3" x2="-6" y2="8" stroke="#9f8fef" stroke-width="2"/>
+    <line x1="0" y1="3" x2="0" y2="8" stroke="#9f8fef" stroke-width="2"/>
+    <line x1="6" y1="3" x2="6" y2="8" stroke="#9f8fef" stroke-width="2"/>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Enterprise</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#9f8fef">4</text>
   </g>
 
-  <!-- Course 5: Evaluating AI Models — brain/nodes -->
-  <g transform="translate(1040,180)">
-    <circle r="28" fill="#00b8d9" fill-opacity="0.12" stroke="#00b8d9" stroke-width="2"/>
-    <circle cx="-6" cy="-6" r="4" fill="#00b8d9" fill-opacity="0.2" stroke="#00b8d9" stroke-width="1.5"/>
-    <circle cx="6" cy="-6" r="4" fill="#00b8d9" fill-opacity="0.2" stroke="#00b8d9" stroke-width="1.5"/>
-    <circle cx="0" cy="6" r="4" fill="#00b8d9" fill-opacity="0.2" stroke="#00b8d9" stroke-width="1.5"/>
-    <line x1="-3" y1="-4" x2="3" y2="-4" stroke="#00b8d9" stroke-width="1.5"/>
-    <line x1="-4" y1="-3" x2="-2" y2="4" stroke="#00b8d9" stroke-width="1.5"/>
-    <line x1="4" y1="-3" x2="2" y2="4" stroke="#00b8d9" stroke-width="1.5"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">AI Models</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#00b8d9">5</text>
+  <!-- Course 5: AI Models — brain nodes -->
+  <g transform="translate(1052,180)">
+    <circle r="36" fill="#00b8d9" fill-opacity="0.12" stroke="#00b8d9" stroke-width="2.5"/>
+    <circle cx="-7" cy="-7" r="5" fill="#00b8d9" fill-opacity="0.25" stroke="#00b8d9" stroke-width="2"/>
+    <circle cx="7" cy="-7" r="5" fill="#00b8d9" fill-opacity="0.25" stroke="#00b8d9" stroke-width="2"/>
+    <circle cx="0" cy="7" r="5" fill="#00b8d9" fill-opacity="0.25" stroke="#00b8d9" stroke-width="2"/>
+    <line x1="-4" y1="-5" x2="4" y2="-5" stroke="#00b8d9" stroke-width="1.8"/>
+    <line x1="-5" y1="-3" x2="-2" y2="4" stroke="#00b8d9" stroke-width="1.8"/>
+    <line x1="5" y1="-3" x2="2" y2="4" stroke="#00b8d9" stroke-width="1.8"/>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">AI Models</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#00b8d9">5</text>
   </g>
 
-  <!-- ═══ ROW 2: Courses 6–10 (y=340) ═══ -->
+  <!-- Row connector: right end of row 1 down to left of row 2 -->
+  <path d="M1052,216 L1052,260 Q1052,270 1042,270 L158,270 Q148,270 148,280 L148,340" fill="none" stroke="#21262d" stroke-width="2"/>
 
-  <!-- Course 6: Advanced Prompt Engineering — chat/code bubble -->
-  <g transform="translate(160,340)">
-    <circle r="28" fill="#00b8d9" fill-opacity="0.12" stroke="#00b8d9" stroke-width="2"/>
-    <rect x="-12" y="-10" width="24" height="16" rx="3" fill="#00b8d9" fill-opacity="0.15" stroke="#00b8d9" stroke-width="2"/>
-    <polygon points="-4,6 -8,12 0,6" fill="#00b8d9" fill-opacity="0.15" stroke="#00b8d9" stroke-width="1.5"/>
-    <text x="0" y="-1" text-anchor="middle" font-family="monospace" font-size="9" fill="#00b8d9">&gt;_</text>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Prompting</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#00b8d9">6</text>
+  <!-- ═══ ROW 2: Courses 6–9 (y=340) ═══ -->
+
+  <!-- Connecting line Row 2 -->
+  <line x1="200" y1="340" x2="1000" y2="340" stroke="#21262d" stroke-width="2"/>
+
+  <!-- Course 6: Prompt Engineering — code bubble -->
+  <g transform="translate(200,340)">
+    <circle r="36" fill="#00b8d9" fill-opacity="0.12" stroke="#00b8d9" stroke-width="2.5"/>
+    <rect x="-14" y="-12" width="28" height="18" rx="4" fill="#00b8d9" fill-opacity="0.15" stroke="#00b8d9" stroke-width="2.5"/>
+    <polygon points="-5,6 -9,14 1,6" fill="#00b8d9" fill-opacity="0.15" stroke="#00b8d9" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#00b8d9">&gt;_</text>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Prompting</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#00b8d9">6</text>
   </g>
 
-  <!-- Course 7: Testing and Refactoring — checkmark in circle -->
-  <g transform="translate(380,340)">
-    <circle r="28" fill="#00b8d9" fill-opacity="0.12" stroke="#00b8d9" stroke-width="2"/>
-    <circle r="12" fill="none" stroke="#00b8d9" stroke-width="2"/>
-    <polyline points="-5,0 -1,5 7,-5" fill="none" stroke="#00b8d9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Testing</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#00b8d9">7</text>
+  <!-- Course 7: Testing — checkmark -->
+  <g transform="translate(467,340)">
+    <circle r="36" fill="#36b37e" fill-opacity="0.12" stroke="#36b37e" stroke-width="2.5"/>
+    <circle r="14" fill="none" stroke="#36b37e" stroke-width="2.5"/>
+    <polyline points="-6,1 -1,7 8,-6" fill="none" stroke="#36b37e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Testing</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#36b37e">7</text>
   </g>
 
-  <!-- Course 8: Governing AI Code — balance scale -->
-  <g transform="translate(600,340)">
-    <circle r="28" fill="#ffab00" fill-opacity="0.12" stroke="#ffab00" stroke-width="2"/>
-    <line x1="0" y1="-12" x2="0" y2="8" stroke="#ffab00" stroke-width="2" stroke-linecap="round"/>
-    <line x1="-12" y1="-6" x2="12" y2="-6" stroke="#ffab00" stroke-width="2" stroke-linecap="round"/>
-    <path d="M-12-6 L-16 4 L-8 4 Z" fill="#ffab00" fill-opacity="0.2" stroke="#ffab00" stroke-width="1.5"/>
-    <path d="M12-6 L8 4 L16 4 Z" fill="#ffab00" fill-opacity="0.2" stroke="#ffab00" stroke-width="1.5"/>
-    <line x1="-4" y1="8" x2="4" y2="8" stroke="#ffab00" stroke-width="2" stroke-linecap="round"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Governance</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#ffab00">8</text>
+  <!-- Course 8: Governance — balance scale -->
+  <g transform="translate(733,340)">
+    <circle r="36" fill="#ffab00" fill-opacity="0.12" stroke="#ffab00" stroke-width="2.5"/>
+    <line x1="0" y1="-14" x2="0" y2="10" stroke="#ffab00" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-14" y1="-7" x2="14" y2="-7" stroke="#ffab00" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-14-7 L-18 5 L-10 5 Z" fill="#ffab00" fill-opacity="0.25" stroke="#ffab00" stroke-width="2"/>
+    <path d="M14-7 L10 5 L18 5 Z" fill="#ffab00" fill-opacity="0.25" stroke="#ffab00" stroke-width="2"/>
+    <line x1="-5" y1="10" x2="5" y2="10" stroke="#ffab00" stroke-width="2.5" stroke-linecap="round"/>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Governance</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#ffab00">8</text>
   </g>
 
-  <!-- Course 9: Autonomous Agent Workflows — circular arrows -->
-  <g transform="translate(820,340)">
-    <circle r="28" fill="#ffab00" fill-opacity="0.12" stroke="#ffab00" stroke-width="2"/>
-    <path d="M-8-8 A12 12 0 1 1 -10 2" fill="none" stroke="#ffab00" stroke-width="2" stroke-linecap="round"/>
-    <polygon points="-13,2 -7,2 -10,-3" fill="#ffab00"/>
-    <circle cx="0" cy="0" r="3" fill="#ffab00" fill-opacity="0.3" stroke="#ffab00" stroke-width="1.5"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Agents</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#ffab00">9</text>
-  </g>
-
-  <!-- Course 10: Capstone — rocket -->
-  <g transform="translate(1040,340)">
-    <circle r="28" fill="#ffab00" fill-opacity="0.12" stroke="#ffab00" stroke-width="2"/>
-    <path d="M0-14 Q6-10 6 0 L2 6 L-2 6 L-6 0 Q-6-10 0-14 Z" fill="#ffab00" fill-opacity="0.2" stroke="#ffab00" stroke-width="2"/>
-    <circle cx="0" cy="-4" r="2.5" fill="#ffab00" fill-opacity="0.4"/>
-    <line x1="-3" y1="6" x2="-5" y2="12" stroke="#ff5630" stroke-width="2" stroke-linecap="round"/>
-    <line x1="0" y1="6" x2="0" y2="13" stroke="#ff5630" stroke-width="2" stroke-linecap="round"/>
-    <line x1="3" y1="6" x2="5" y2="12" stroke="#ff5630" stroke-width="2" stroke-linecap="round"/>
-    <text y="48" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#8b949e">Capstone</text>
-    <text y="-38" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#ffab00">10</text>
+  <!-- Course 9: Production Capstone — rocket -->
+  <g transform="translate(1000,340)">
+    <circle r="36" fill="#ffab00" fill-opacity="0.12" stroke="#ffab00" stroke-width="2.5"/>
+    <path d="M0-16 Q8-12 8 0 L3 8 L-3 8 L-8 0 Q-8-12 0-16 Z" fill="#ffab00" fill-opacity="0.25" stroke="#ffab00" stroke-width="2.5"/>
+    <circle cx="0" cy="-5" r="3" fill="#ffab00" fill-opacity="0.5"/>
+    <line x1="-4" y1="8" x2="-6" y2="15" stroke="#ff5630" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="8" x2="0" y2="16" stroke="#ff5630" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="4" y1="8" x2="6" y2="15" stroke="#ff5630" stroke-width="2.5" stroke-linecap="round"/>
+    <text y="58" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Capstone</text>
+    <text y="-46" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="700" fill="#ffab00">9</text>
   </g>
 
   <!-- Footer -->
-  <text x="600" y="440" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="11" fill="#484f58">pragmaticai.io · Duke University · Coursera</text>
+  <text x="600" y="458" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13" fill="#6e7681">pragmaticai.io · Duke University · Coursera</text>
 </svg>
